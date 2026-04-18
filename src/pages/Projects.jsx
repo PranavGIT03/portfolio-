@@ -5,25 +5,25 @@ const projects = [
   {
     title: 'NLP F1 Race Summarizer and Predictor',
     description:
-      'An AI-powered system that uses Python and DistilBERT to generate race summaries and predict race outcomes. Analyzed 10+ years of F1 race data to extract insights and improve prediction accuracy, with a focus on delivering clean, user-friendly results.',
+      'I built this because I wanted to see if a model could actually understand race commentary and tell you what happened — not just pull statistics. Used DistilBERT on 10+ years of race data and got it to summarize races and predict outcomes with decent accuracy.',
     techStack: ['Python', 'DistilBERT', 'NLP', 'Data Analysis'],
-    github: 'https://github.com/pranavdubey/nlp-f1-summarizer',
+    github: 'https://github.com/PranavGIT03/nlp-f1-summarizer',
     highlights: [
-      'Developed AI-powered race summarization using DistilBERT',
-      'Analyzed 10+ years of F1 race data for improved prediction accuracy',
-      'Delivered clean, user-friendly insights dashboard',
+      'Race summarization using DistilBERT fine-tuned on F1 commentary',
+      'Trained on 10+ years of historical race data',
+      'Outcome prediction with a clean results interface',
     ],
   },
   {
-    title: 'AI Support Agent (Expona AI 2.0)',
+    title: 'AI Support Agent — Expona AI 2.0',
     description:
-      'A full AI-powered customer support solution for business websites. Contributed to the agent pipeline, designed dashboard interfaces and workflows to improve customer engagement, and optimized the onboarding experience through UX design.',
+      'Worked on the customer support agent for Expona AI. My part was mainly the dashboard UI and the onboarding flow — the goal was to make it feel less like talking to a bot and more like getting actual help. Reduced drop-off during onboarding by rethinking the navigation.',
     techStack: ['Python', 'AI Agents', 'Figma', 'UI/UX', 'Dashboard Design'],
-    github: 'https://github.com/pranavdubey/expona-ai-support',
+    github: 'https://github.com/PranavGIT03/expona-ai-support',
     highlights: [
-      'Built an AI-powered customer support agent pipeline',
-      'Designed dashboard interfaces to improve usability',
-      'Improved onboarding efficiency via user navigation optimization',
+      'Designed the support agent dashboard from scratch in Figma',
+      'Rebuilt the onboarding flow to cut user drop-off',
+      'Worked on the agent pipeline alongside the backend team',
     ],
   },
 ]
@@ -50,7 +50,7 @@ function Projects() {
     <main className="projects-page">
       <h1 className="projects-heading">Projects</h1>
       <p className="projects-subheading">
-        A selection of projects I've built, combining AI research and product thinking.
+        Things I've worked on — mostly at the intersection of NLP and product design.
       </p>
 
       <div className="projects-grid">

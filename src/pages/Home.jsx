@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 
+const profilePhoto = '/portfolio-/profile.jpg'
+
 function Home() {
   return (
     <main className="home">
@@ -8,12 +10,12 @@ function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="hero-avatar">
-          <div className="avatar-placeholder">PD</div>
+          <img src={profilePhoto} alt="Pranav Dubey" className="avatar-img" />
         </div>
         <div className="hero-text">
           <h1>Pranav Dubey</h1>
           <p className="hero-subtitle">AI Student &amp; UI/UX Enthusiast</p>
-          <p className="hero-location">📍 Hyderabad, India</p>
+          <p className="hero-location">Hyderabad, India</p>
           <div className="hero-badges">
             <span className="badge">Python</span>
             <span className="badge">AI / ML</span>
@@ -28,16 +30,16 @@ function Home() {
       <section className="card" id="about">
         <h2 className="section-title">About Me</h2>
         <p>
-          I'm a second-year B.Tech student specialising in Artificial Intelligence at Mahindra
-          Ecole Centrale, Hyderabad. I combine a passion for AI research with hands-on product
-          and design experience, having worked as a UI/UX Intern at InfoBeans and as a Software
-          Product Lead at Foreman Construction Pvt Ltd.
+          I'm Pranav, a third-year B.Tech student in Artificial Intelligence at Mahindra Ecole
+          Centrale, Hyderabad. I got into AI because I was genuinely curious about how machines
+          understand language — that curiosity turned into internships, projects, and a lot of
+          late nights debugging Python.
         </p>
         <p>
-          I'm deeply interested in building technology that is intuitive, impactful, and
-          human-centred — from NLP pipelines to customer-facing AI agents. Outside academics,
-          I lead the Erudite Club, manage large-scale logistics events, and represented Madhya
-          Pradesh at the SGFI U-17 State Cricket Team.
+          On the side, I've worked in product and design roles, which taught me that building
+          something technically impressive means nothing if people can't figure out how to use it.
+          I also run the Erudite Club on campus, played state-level cricket for Madhya Pradesh,
+          and somehow still find time to read about electric vehicles.
         </p>
       </section>
 
@@ -46,31 +48,27 @@ function Home() {
         <h2 className="section-title">Research Interests</h2>
         <div className="interests-grid">
           <div className="interest-item">
-            <span className="interest-icon">🤖</span>
             <div>
               <h4>Natural Language Processing</h4>
-              <p>Text summarization, prediction, and language model fine-tuning.</p>
+              <p>Especially text summarization and working with transformers like DistilBERT.</p>
             </div>
           </div>
           <div className="interest-item">
-            <span className="interest-icon">💬</span>
             <div>
-              <h4>AI Customer Experience</h4>
-              <p>Designing AI agents that improve onboarding, support, and engagement.</p>
+              <h4>AI in Customer Experience</h4>
+              <p>How AI agents can actually reduce friction for real users, not just in demos.</p>
             </div>
           </div>
           <div className="interest-item">
-            <span className="interest-icon">🎨</span>
             <div>
               <h4>Human-Computer Interaction</h4>
-              <p>User-journey design, wireframing, and accessibility-focused prototyping.</p>
+              <p>Wireframing and prototyping products that feel obvious to use from the start.</p>
             </div>
           </div>
           <div className="interest-item">
-            <span className="interest-icon">⚡</span>
             <div>
               <h4>Sustainable Technology</h4>
-              <p>Electric vehicles, green-tech innovation, and technology-driven sustainability.</p>
+              <p>EVs, clean energy tech — I follow this space closely outside of academics.</p>
             </div>
           </div>
         </div>
@@ -96,22 +94,22 @@ function Home() {
             <span className="detail-label">GitHub</span>
             <a
               className="detail-value detail-link"
-              href="https://github.com/pranavdubey"
+              href="https://github.com/PranavGIT03"
               target="_blank"
               rel="noreferrer"
             >
-              github.com/pranavdubey
+              github.com/PranavGIT03
             </a>
           </div>
           <div className="detail-row">
             <span className="detail-label">LinkedIn</span>
             <a
               className="detail-value detail-link"
-              href="https://www.linkedin.com/in/pranavdubey"
+              href="https://www.linkedin.com/in/pranav-dubey-7226a1218"
               target="_blank"
               rel="noreferrer"
             >
-              linkedin.com/in/pranavdubey
+              linkedin.com/in/pranav-dubey-7226a1218
             </a>
           </div>
           <div className="detail-row">
