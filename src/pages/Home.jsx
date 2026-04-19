@@ -88,7 +88,7 @@ function Home() {
           </div>
           <div className="detail-row">
             <span className="detail-label">College Email</span>
-            <span className="detail-value">se23bai006@mahindrauniversity.edu.in</span>
+            <span className="detail-value">se23uari096@mahindrauniversity.edu.in</span>
           </div>
           <div className="detail-row">
             <span className="detail-label">GitHub</span>
