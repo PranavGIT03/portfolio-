@@ -6,7 +6,7 @@ const projects = [
     title: 'AI Support Agent — Expona AI 2.0',
     description:
       'Worked on the customer support agent for Expona AI. My part was mainly the dashboard UI and the onboarding flow — the goal was to make it feel less like talking to a bot and more like getting actual help. Reduced drop-off during onboarding by rethinking the navigation.',
-    techStack: ['Python', 'AI Agents', 'Figma', 'UI/UX', 'Dashboard Design'],
+    techStack: ['AI Agents', 'Figma', 'UI/UX', 'Dashboard Design'],
     github: null,
     highlights: [
       'Designed the support agent dashboard from scratch in Figma',
