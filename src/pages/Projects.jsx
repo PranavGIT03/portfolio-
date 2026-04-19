@@ -3,18 +3,6 @@ import './Projects.css'
 
 const projects = [
   {
-    title: 'NLP F1 Race Summarizer and Predictor',
-    description:
-      'I built this because I wanted to see if a model could actually understand race commentary and tell you what happened — not just pull statistics. Used DistilBERT on 10+ years of race data and got it to summarize races and predict outcomes with decent accuracy.',
-    techStack: ['Python', 'DistilBERT', 'NLP', 'Data Analysis'],
-    github: 'https://github.com/PranavGIT03/NLP-Project-Formula-1',
-    highlights: [
-      'Race event detection — pit stops, crashes, overtakes, weather changes',
-      'Fine-tuned transformer model on F1 commentary text',
-      'Structured race highlights output compared against a rule-based baseline',
-    ],
-  },
-  {
     title: 'AI Support Agent — Expona AI 2.0',
     description:
       'Worked on the customer support agent for Expona AI. My part was mainly the dashboard UI and the onboarding flow — the goal was to make it feel less like talking to a bot and more like getting actual help. Reduced drop-off during onboarding by rethinking the navigation.',
@@ -24,6 +12,18 @@ const projects = [
       'Designed the support agent dashboard from scratch in Figma',
       'Rebuilt the onboarding flow to cut user drop-off',
       'Worked on the agent pipeline alongside the backend team',
+    ],
+  },
+  {
+    title: 'NLP F1 Race Summarizer and Predictor',
+    description:
+      'I built this because I wanted to see if a model could actually understand race commentary and tell you what happened — not just pull statistics. Used DistilBERT on 10+ years of race data and got it to summarize races and predict outcomes with decent accuracy.',
+    techStack: ['Python', 'DistilBERT', 'NLP', 'Data Analysis'],
+    github: 'https://github.com/PranavGIT03/NLP-Project-Formula-1',
+    highlights: [
+      'Race event detection — pit stops, crashes, overtakes, weather changes',
+      'Fine-tuned transformer model on F1 commentary text',
+      'Structured race highlights output compared against a rule-based baseline',
     ],
   },
   {
