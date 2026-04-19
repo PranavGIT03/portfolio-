@@ -7,23 +7,35 @@ const projects = [
     description:
       'I built this because I wanted to see if a model could actually understand race commentary and tell you what happened — not just pull statistics. Used DistilBERT on 10+ years of race data and got it to summarize races and predict outcomes with decent accuracy.',
     techStack: ['Python', 'DistilBERT', 'NLP', 'Data Analysis'],
-    github: 'https://github.com/PranavGIT03/nlp-f1-summarizer',
+    github: 'https://github.com/PranavGIT03/NLP-Project-Formula-1',
     highlights: [
-      'Race summarization using DistilBERT fine-tuned on F1 commentary',
-      'Trained on 10+ years of historical race data',
-      'Outcome prediction with a clean results interface',
+      'Race event detection — pit stops, crashes, overtakes, weather changes',
+      'Fine-tuned transformer model on F1 commentary text',
+      'Structured race highlights output compared against a rule-based baseline',
     ],
   },
   {
-    title: 'AI Support Agent — Expona AI 2.0',
+    title: 'CollabSphere',
     description:
-      'Worked on the customer support agent for Expona AI. My part was mainly the dashboard UI and the onboarding flow — the goal was to make it feel less like talking to a bot and more like getting actual help. Reduced drop-off during onboarding by rethinking the navigation.',
-    techStack: ['Python', 'AI Agents', 'Figma', 'UI/UX', 'Dashboard Design'],
-    github: 'https://github.com/PranavGIT03/expona-ai-support',
+      'A collaboration platform built with React and TypeScript. Started this to get hands-on with full-stack product development outside of coursework — the focus was on getting the UI architecture right from the beginning rather than refactoring later.',
+    techStack: ['TypeScript', 'React', 'Vite', 'Tailwind CSS'],
+    github: 'https://github.com/PranavGIT03/collabsphere',
     highlights: [
-      'Designed the support agent dashboard from scratch in Figma',
-      'Rebuilt the onboarding flow to cut user drop-off',
-      'Worked on the agent pipeline alongside the backend team',
+      'Built with TypeScript and React for strong type safety across components',
+      'Styled with Tailwind CSS for a consistent, responsive layout',
+      'Vite setup for fast development and optimised production builds',
+    ],
+  },
+  {
+    title: 'Constructo',
+    description:
+      'A cost-estimator platform for first-time home buyers, built during my time as Software Product Lead at Foreman Construction. The main challenge was making complex construction pricing feel approachable for Tier 2/3 customers who had no prior experience with it.',
+    techStack: ['Product Design', 'Figma', 'Wireframing', 'Pricing Models'],
+    github: 'https://github.com/PranavGIT03/Constructo2',
+    highlights: [
+      'Designed for Tier 2/3 customers with no construction background',
+      'Customer-centric pricing and subscription model',
+      'Led stakeholder conversations to shape core product features',
     ],
   },
 ]
@@ -50,7 +62,7 @@ function Projects() {
     <main className="projects-page">
       <h1 className="projects-heading">Projects</h1>
       <p className="projects-subheading">
-        Things I've worked on — mostly at the intersection of NLP and product design.
+        Things I've worked on — across NLP, product design, and full-stack development.
       </p>
 
       <div className="projects-grid">
