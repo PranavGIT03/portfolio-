@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 
-const profilePhoto = '/portfolio-/profile.jpg'
+const profilePhoto = 'https://upload.wikimedia.org/wikipedia/commons/6/67/Porsche_964_Carrera.JPG'
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="hero-avatar">
-          <img src={profilePhoto} alt="Pranav Dubey" className="avatar-img" />
+          <img src={profilePhoto} alt="Porsche 964 911" className="avatar-img" />
         </div>
         <div className="hero-text">
           <h1>Pranav Dubey</h1>
